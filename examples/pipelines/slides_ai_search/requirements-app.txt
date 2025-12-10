@@ -4,4 +4,5 @@ openai >= 1.6
 instructor == 1.2.6
 tenacity != 8.4.0
 Office365-REST-Python-Client >= 2.5.3
-unstructured >= 0.10.28,< 0.15
+unstructured>=0.18.18
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
